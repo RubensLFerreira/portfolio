@@ -5,10 +5,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 
 import Home from './pages/Home';
-import Work from './pages/Work';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Experience from './pages/Experience';
+import Work from './pages/Home/Work';
+import About from './pages/Home/About';
+import Contact from './pages/Home/Contact';
+import Experience from './pages/Home/Experience';
 
 
 import './index.css';

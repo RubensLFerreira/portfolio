@@ -1,3 +1,4 @@
+import About from './About';
 import './home.css';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
           Express, entre outras.
         </p>
       </div>
+      <About />
     </div>
   );
 };

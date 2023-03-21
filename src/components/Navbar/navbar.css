@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
 
+:root {
+  --green: #27b84e;
+  --semi-white: rgba(173, 181, 189, 0.75);
+  --bg: #161b22;
+  --snow: rgb(237, 247, 255);
+}
+
 .background {
-  background-color: #161b22;
+  background-color: var(--bg);
 }
 
 .navbar {
@@ -12,14 +19,14 @@
 
 .first-name, .second-name{
   font-family: 'Arimo', sans-serif;
-  color: #27b84e;
+  color: var(--green);
   text-decoration: underline;
   transition: .5s;
 }
 
 .second-name{
   font-family: 'Arimo', sans-serif;
-  color: #27b84e;
+  color: var(--green);
   text-decoration: overline;
   transition: .5s;
 }
@@ -40,7 +47,7 @@
 }
 
 .nav-link span {
-  color: #27b84e;
+  color: var(--green);
 }
 
 .nav-link {
@@ -49,17 +56,17 @@
 }
 
 .nav-link:hover {
-  color: #27b84e;
+  color: var(--green);
 }
 
 .btn {
-  border: 1px solid #27b84e;
-  color: #27b84e;
+  border: 1px solid var(--green);
+  color: var(--green);
   transition: .5s;
 }
 
 .btn:hover {
-  background-color: #27b84e41;
-  border: 1px solid #27b84e;
-  color: aliceblue;
+  background-color: var(--green)41;
+  border: 1px solidvar(--green);
+  color:var(--snow);
 }
