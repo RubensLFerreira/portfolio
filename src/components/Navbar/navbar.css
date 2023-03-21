@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
+
+.background {
+  background-color: #161b22;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.first-name, .second-name{
+  font-family: 'Arimo', sans-serif;
+  color: #27b84e;
+  text-decoration: underline;
+  transition: .5s;
+}
+
+.second-name{
+  font-family: 'Arimo', sans-serif;
+  color: #27b84e;
+  text-decoration: overline;
+  transition: .5s;
+}
+
+.container-fluid {
+  height: 5rem;
+  --bs-gutter-x: 6rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.navbar-nav li {
+  margin-right: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: small;
+}
+
+.nav-link span {
+  color: #27b84e;
+}
+
+.nav-link {
+  color: rgba(173, 181, 189, 0.75);
+  transition: .7s;
+}
+
+.nav-link:hover {
+  color: #27b84e;
+}
+
+.btn {
+  border: 1px solid #27b84e;
+  color: #27b84e;
+  transition: .5s;
+}
+
+.btn:hover {
+  background-color: #27b84e41;
+  border: 1px solid #27b84e;
+  color: aliceblue;
+}
