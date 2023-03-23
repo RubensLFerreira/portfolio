@@ -1,21 +1,22 @@
-import About from './About';
+import ButtonTop from '../../components/ButtonTop';
+
 import './home.css';
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="info">
-        <p className='hello'>Hi, my name is</p>
+        <p className="hello">Hi, my name is</p>
         <h1>Rubens Lima.</h1>
         <h2>I build things for the web.</h2>
-        <p className='description'>
-          Olá! Me chamo Rubens Lima, sou estudante de Sistema de Informação no
-          IFCE, estou atualmente no meu 6° semestre da faculdade. Possuo
-          expriências em algumas tecnologias como NodeJS, Postgres, Prisma e
-          Express, entre outras.
+        <p className="description">
+          Hello! My name is Rubens Lima, I'm an Information System student at
+          IFCE, I'm currently in my 6th semester of college. I have experience
+          in some technologies such as NodeJS, Postgres, Prisma and Express,
+          among others.
         </p>
       </div>
-      <About />
+      <ButtonTop />
     </div>
   );
 };

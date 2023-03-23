@@ -1,10 +1,10 @@
-import perfil from '../../../../public/image/perfil.jpeg';
+import perfil from '../../../public/image/perfil.jpeg';
 
 import './about.css';
 
 const About = () => {
   return (
-    <div className="section-about">
+    <div className="section-about" id='about'>
       <h2 className='title-about'>
         <span className='span-about'>01. </span>About me
       </h2>

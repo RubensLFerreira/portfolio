@@ -1,17 +1,20 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import './navbar.css';
 
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg background" data-bs-theme="dark">
-        <div class="container-fluid">
-          <Link to='/' class="navbar-brand">
-            <h1><span className='first-name'>R</span><span className='second-name'>L</span></h1>
+      <nav className="navbar navbar-expand-lg background" data-bs-theme="dark">
+        <div className="container-fluid">
+          <Link to="home" spy={true} smooth={true} offset={50} duration={500} className="navbar-brand">
+            <h1>
+              <span className="first-name">R</span>
+              <span className="second-name">L</span>
+            </h1>
           </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -19,36 +22,38 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <Link to='/about' class="nav-link">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link to="about" spy={true} smooth={true} offset={-40} duration={500} className="nav-link">
                   <span>01.</span> About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to='/experiece' class="nav-link">
+              <li className="nav-item">
+                <Link to="experience" className="nav-link">
                   <span>02.</span> Experience
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to='/work' class="nav-link">
+              <li className="nav-item">
+                <Link to="work" className="nav-link">
                   <span>03.</span> Work
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to='/contact' class="nav-link">
+              <li className="nav-item">
+                <Link to="/contact" className="nav-link">
                   <span>04.</span> Contact
                 </Link>
-              </li>     
-              <li class="nav-item">
-              <button type="button" class="btn">Resumo</button>
-              </li>   
+              </li>
+              <li className="nav-item">
+                <button type="button" className="btn">
+                  Resumo
+                </button>
+              </li>
             </ul>
           </div>
         </div>

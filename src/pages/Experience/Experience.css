@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
+
+.section-work {
+  width: 50rem;
+  margin: 25rem auto 10rem auto;
+}
+
+.left {
+  padding: 0;
+}
+
+.btn-flex {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  height: 3rem;
+  border: none;
+  font-size: large;
+  border-left: 1px solid #ffffff4d;
+  transition: .2s;
+  margin: 0;
+}
+
+.btn-flex:hover    {
+  background-color: #27b84e31;
+  border-left: 3px solid #00e93e46;
+}
