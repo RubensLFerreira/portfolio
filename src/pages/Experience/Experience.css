@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
 
 .section-work {
-  width: 50rem;
+  max-width: 100%;
+  width: 60%; 
   margin: 25rem auto 10rem auto;
 }
 
 .left {
   padding: 0;
+  display: inline-block;
 }
 
 .btn-flex {

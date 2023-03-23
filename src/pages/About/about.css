@@ -31,13 +31,14 @@
 }
 
 .text-perfil {
-  max-width: 60%;
+  width: 60%;
   display: inline-block;
+  position: relative;
 }
 
 .image-perfil img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
   border-radius: 5px;
   flex: 1 0 0%;
   margin: auto auto;
@@ -48,8 +49,8 @@
 }
 
 .image-perfil:hover img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
   border-radius: 5px;
   flex: 1 0 0%;
   margin: auto auto;

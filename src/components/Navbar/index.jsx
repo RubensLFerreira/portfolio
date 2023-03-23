@@ -1,13 +1,26 @@
 import { Link } from 'react-scroll';
 
+import pdf from '../../../public/files/cv-rubens.pdf';
+
 import './navbar.css';
 
 const Navbar = () => {
+  function openPDF() {
+    window.open(`${pdf}`, '_blank');
+  }
+
   return (
     <>
       <nav className="navbar navbar-expand-lg background" data-bs-theme="dark">
         <div className="container-fluid">
-          <Link to="home" spy={true} smooth={true} offset={50} duration={500} className="navbar-brand">
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-brand"
+          >
             <h1>
               <span className="first-name">R</span>
               <span className="second-name">L</span>
@@ -30,27 +43,55 @@ const Navbar = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="about" spy={true} smooth={true} offset={-40} duration={500} className="nav-link">
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-40}
+                  duration={500}
+                  className="nav-link"
+                >
                   <span>01.</span> About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="experience" className="nav-link">
+                <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-40}
+                  duration={500}
+                  className="nav-link"
+                >
                   <span>02.</span> Experience
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="work" className="nav-link">
+                <Link
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-40}
+                  duration={500}
+                  className="nav-link"
+                >
                   <span>03.</span> Work
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact" className="nav-link">
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-40}
+                  duration={500}
+                  className="nav-link"
+                >
                   <span>04.</span> Contact
                 </Link>
               </li>
               <li className="nav-item">
-                <button type="button" className="btn">
+                <button onClick={openPDF} type="button" className="btn">
                   Resumo
                 </button>
               </li>

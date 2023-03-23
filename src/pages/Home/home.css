@@ -16,17 +16,18 @@
 
 .info h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 5rem;
+  font-size: 60pt;
 }
 
 .info h2 {
   font-family: 'Poppins', sans-serif;
   color: rgba(173, 181, 189, 0.75);
-  font-size: 4rem;
+  font-size: 50pt;
 }
 
 .description {
   color: rgba(173, 181, 189, 0.75);
   text-align: justify;
-  max-width: 55%;
+  max-width: 100%;
+  width: 25rem;
 }
