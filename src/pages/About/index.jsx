@@ -34,12 +34,12 @@ const About = () => {
         </div>
         <div className="col">
           <div className="image-perfil">
-            <img src={perfil} alt="" />
+            <img src={perfil} className='img-thumbnail' alt="" />
           </div>
         </div>
       </div>
       <div className="row">
-        <ul>
+        <ul className='list-about'>
           <li>JavaScript (ES6+)</li>
           <li>React</li>
           <li>Node.js</li>

@@ -6,23 +6,18 @@
 }
 
 .button-top {
+  background-color: #161b2200;
   cursor: pointer;
   position: fixed;
   right: 10%;
   bottom: 5%;
 }
 
-.btn-topo {
-  width: 4rem;
-  height: 4rem;
-  border: 1px solid #27b84e;
-  color: #27b84e;
+.bi {
+  color: #27b84e83;
   transition: .5s;
-  border-radius: 50%;
 }
 
-.btn-topo:hover {
-  background-color: #27b84e46;
-  border: 1px solid #27b84e;
-  color: rgb(237, 247, 255);
+.bi:hover {
+  color: #27b84e;
 }

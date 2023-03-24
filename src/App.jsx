@@ -1,7 +1,8 @@
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
-import Work from './pages/Experience';
+import Experience from './pages/Experience';
+import Work from './pages/Work';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Experience />
       <Work />
     </div>
   );

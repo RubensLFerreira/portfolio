@@ -11,7 +11,7 @@ const Work = () => {
 
   return (
     <div className="container" id="experience">
-      <div className="row section-work">
+      <div className="row section-experience">
       <h2 className='title-about'>
         <span className='span-about'>02. </span>Experience
       </h2>
