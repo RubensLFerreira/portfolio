@@ -48,7 +48,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-40}
-                  duration={500}
+                  duration={300}
                   className="nav-link"
                 >
                   <span>01.</span> About
@@ -60,7 +60,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-40}
-                  duration={500}
+                  duration={300}
                   className="nav-link"
                 >
                   <span>02.</span> Experience
@@ -72,7 +72,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-40}
-                  duration={500}
+                  duration={300}
                   className="nav-link"
                 >
                   <span>03.</span> Work
@@ -84,7 +84,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-40}
-                  duration={500}
+                  duration={300}
                   className="nav-link"
                 >
                   <span>04.</span> Contact

@@ -5,7 +5,7 @@ import './ButtonTop.css';
 const ButtonTop = () => {
   return (
     <div className="button-top">
-      <Link to="home" spy={true} smooth={true} offset={-200} duration={500}>
+      <Link to="home" spy={true} smooth={true} offset={-200} duration={300}>
         <h1>
           <i class="bi bi-arrow-up-circle-fill"></i>
         </h1>

@@ -1,0 +1,20 @@
+
+
+.section-other {
+  width: 1050px;
+  margin: auto auto;
+}
+
+.section-other ul {
+  list-style: none;
+}
+
+.card {
+  width: 20rem;
+  height: 20rem;
+  border: none;
+}
+
+.card-body {
+  background-color: rgb(32, 32, 32);
+}
