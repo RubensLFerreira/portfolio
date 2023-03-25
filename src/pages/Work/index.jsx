@@ -30,7 +30,7 @@ const Work = () => {
               <li>React</li>
               <li>Axios</li>
               <li>TMDb API</li>
-              <li>React-Router-Dom</li>
+              <li>Ajax</li>
             </ul>
             <ul>
               <li>

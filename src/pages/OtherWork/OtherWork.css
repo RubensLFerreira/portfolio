@@ -1,20 +1,50 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&display=swap');
 
 .section-other {
   width: 1050px;
-  margin: auto auto;
-}
-
-.section-other ul {
-  list-style: none;
+  margin: 1rem auto 5rem auto;
 }
 
 .card {
   width: 20rem;
   height: 20rem;
-  border: none;
+  transition: .5s;
 }
 
-.card-body {
-  background-color: rgb(32, 32, 32);
+.card:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 5px #39d3537c);
+  transform: scale(1.02);
+}
+
+.card-header {
+  background-color: #0d1117;
+}
+
+.title-other {
+  margin: 2rem 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.span-other {
+  font-family: 'Arimo', sans-serif;
+  color: var(--green);
+  text-align: center;
+}
+
+.p-other {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: var(--green);
+  margin-bottom: 5%;
+}
+
+.p-footer {
+  font-family: 'Roboto Mono', monospace;
 }

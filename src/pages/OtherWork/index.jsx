@@ -5,129 +5,167 @@ import './OtherWork.css';
 const OtherWork = () => {
   return (
     <div className="container">
-      <h2 className='title-about'>
-        <span className='span-about'>03.1 </span>Other Noteworthy Projects
-      </h2>
-      <p className="hello">view the archive</p>
+      <h2 className="title-other">Other Noteworthy Projects</h2>
+      <p className="p-other">view the archive</p>
 
       <div className="section-other">
-        <ul className="row">
-          <li className="col">
-            <div className="card" style={{ width: '18rem;' }}>
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card text-bg-dark">
+              <div className="card-header">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <h1>
+                      <i class="bi bi-folder"></i>
+                    </h1>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-github"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
                 </p>
-                <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
-                </a>
+                <p className="p-footer">Footer</p>
               </div>
             </div>
-          </li>
+          </div>
 
-          <li className="col">
-            <div className="card" style={{ width: '18rem;' }}>
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div class="col">
+            <div class="card text-bg-dark">
+              <div className="card-header">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <h1>
+                      <i class="bi bi-folder"></i>
+                    </h1>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-github"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
                 </p>
-                <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
-                </a>
+                <p className="p-footer">Footer</p>
               </div>
             </div>
-          </li>
+          </div>
 
-          <li className="col">
-            <div className="card" style={{ width: '18rem;' }}>
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div class="col">
+            <div class="card text-bg-dark">
+              <div className="card-header">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <h1>
+                      <i class="bi bi-folder"></i>
+                    </h1>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-github"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
                 </p>
-                <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
-                </a>
+                <p className="p-footer">Footer</p>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
 
-        <ul className="row">
-          <li className="col">
-            <div className="card" style={{ width: '18rem;' }}>
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div class="col">
+            <div class="card text-bg-dark">
+              <div className="card-header">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <h1>
+                      <i class="bi bi-folder"></i>
+                    </h1>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-github"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
                 </p>
-                <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
-                </a>
+                <p className="p-footer">Footer</p>
               </div>
             </div>
-          </li>
+          </div>
 
-          <li className="col">
-            <div className="card" style={{ width: '18rem;' }}>
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div class="col">
+            <div class="card text-bg-dark">
+              <div className="card-header">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <h1>
+                      <i class="bi bi-folder"></i>
+                    </h1>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-github"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
                 </p>
-                <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
-                </a>
+                <p className="p-footer">Footer</p>
               </div>
             </div>
-          </li>
+          </div>
 
-          <li className="col">
-            <div className="card" style={{ width: '18rem;' }}>
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div class="col">
+            <div class="card text-bg-dark">
+              <div className="card-header">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <h1>
+                      <i class="bi bi-folder"></i>
+                    </h1>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-github"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
                 </p>
-                <a href="#" className="card-link">
-                  Card link
-                </a>
-                <a href="#" className="card-link">
-                  Another link
-                </a>
+                <p className="p-footer">Footer</p>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
