@@ -1,0 +1,34 @@
+.section-contact {
+  margin: 5% auto 15% auto;
+}
+
+.btn {
+  border: 1px solid var(--green);
+  color: var(--green);
+  transition: .5s;
+}
+
+.btn:hover {
+  background-color: #27b84e46;
+  border: 1px solid var(--green);
+  color:var(--snow);
+}
+
+.p-contact {
+  width: 50%;
+  margin: 0 auto 5% auto;
+  color: rgba(173, 181, 189, 0.959);
+}
+
+.title-contact {
+  margin: 3rem 0;
+}
+
+.title-contact h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.span-contact {
+  font-family: 'Arimo', sans-serif;
+  color: var(--green);
+}

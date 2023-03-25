@@ -3,7 +3,7 @@
 
 .section-other {
   width: 1050px;
-  margin: 1rem auto 5rem auto;
+  margin: 1rem auto 15rem auto;
 }
 
 .card {
@@ -20,6 +20,10 @@
 
 .card-header {
   background-color: #0d1117;
+}
+
+.card-text {
+  color: rgba(173, 181, 189, 0.959);
 }
 
 .title-other {

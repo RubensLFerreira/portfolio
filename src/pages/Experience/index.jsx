@@ -28,17 +28,17 @@ const Work = () => {
           {buttonAtive === 'button1' && (
             <div>
               <h2>Engineer @ Upstatement</h2>
-              <p>
+              <p className='p-experience'>
                 Write modern, performant, maintainable code for a diverse array
                 of client and internal projects
               </p>
-              <p>
+              <p className='p-experience'> 
                 Work with a variety of different languages, platforms,
                 frameworks, and content management systems such as JavaScript,
                 TypeScript, Gatsby, React, Craft, WordPress, Prismic, and
                 Netlify
               </p>
-              <p>
+              <p className='p-experience'>
                 Communicate with multi-disciplinary teams of engineers,
                 designers, producers, and clients on a daily basis
               </p>
@@ -47,16 +47,16 @@ const Work = () => {
           {buttonAtive === 'button2' && (
             <div>
               <h2>Studio Developer @ Scout</h2>
-              <p>
+              <p className='p-experience'>
                 Worked with a team of three designers to build a marketing
                 website and e-commerce platform for blistabloc, an ambitious
                 startup originating from Northeastern
               </p>
-              <p>
+              <p className='p-experience'>
                 Helped solidify a brand direction for blistabloc that spans both
                 packaging and web
               </p>
-              <p>
+              <p className='p-experience'>
                 Interfaced with clients on a weekly basis, providing
                 technological expertise
               </p>

@@ -25,6 +25,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.p-about {
+  color: rgba(173, 181, 189, 0.959);
+}
+
 .span-about {
   font-family: 'Arimo', sans-serif;
   color: var(--green);

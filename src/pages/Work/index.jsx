@@ -11,7 +11,7 @@ const Work = () => {
     <div class="container container-work" id="work">
       <div className="section-work">
         <h2 className="title-about">
-          <span className="span-about">03. </span>Some Things I’ve Built
+          <span className="span-about">03. </span>Some Things I've Built
         </h2>
 
         <div className="row div-row">
