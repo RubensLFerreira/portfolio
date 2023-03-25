@@ -17,17 +17,17 @@ const Work = () => {
       </h2>
         <div className="col-3 left">
           <button className="btn-flex" onClick={() => buttonClick('button1')}>
-            Upstatement
+            Bootcamp Atlântico
           </button>
           <button className="btn-flex" onClick={() => buttonClick('button2')}>
-            Scout
+            Projects
           </button>
         </div>
 
         <div className="col right">
           {buttonAtive === 'button1' && (
             <div>
-              <h2>Engineer @ Upstatement</h2>
+              <h2>Atlântico Academy Bootcamp</h2>
               <p className='p-experience'>
                 Write modern, performant, maintainable code for a diverse array
                 of client and internal projects
@@ -46,7 +46,7 @@ const Work = () => {
           )}
           {buttonAtive === 'button2' && (
             <div>
-              <h2>Studio Developer @ Scout</h2>
+              <h2>Own and academic projects</h2>
               <p className='p-experience'>
                 Worked with a team of three designers to build a marketing
                 website and e-commerce platform for blistabloc, an ambitious

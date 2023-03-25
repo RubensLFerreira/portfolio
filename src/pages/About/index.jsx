@@ -4,42 +4,40 @@ import './about.css';
 
 const About = () => {
   return (
-    <div className="section-about" id='about'>
-      <h2 className='title-about'>
-        <span className='span-about'>01. </span>About me
+    <div className="section-about" id="about">
+      <h2 className="title-about">
+        <span className="span-about">01. </span>About me
       </h2>
       <div className="row">
         <div className="col">
-          <p className='p-about'>
-            Hello! My name is Rubens and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+          <p className="p-about">
+            Hello! My name is Rubens Lima and I like to create things for the
+            Web. My interest in the Web arose when I took a technical course in
+            Computing and had my first contact with HTML and CSS through Gustavo
+            Guanabara's courses, where I was able to create my first basic
+            pages.
           </p>
-
-          <p className='p-about'>
-            Fast-forward to today, and I've had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+          <p className="p-about">
+            I do not have professional experience in the area, only in small
+            projects of my own. I am currently in the 6th semester of college in
+            Information Systems. I'm looking for my first opportunity in the
+            area as a junior.
           </p>
-
-          <p className='p-about'>
-            I also recently launched a course that covers everything you need to
-            build a web app with the Spotify API using Node & React. Here are a
-            few technologies I've been working with recently:
+          <p className="p-about">
+            I'm currently studying with a focus on becoming a back-end developer
+            with Nodejs, but I enjoy creating some projects with React. I've
+            already made some REST APIs using TypeScript, Prisma, Sequelize or
+            Knex, PostgreSQL or MySQL, Jest and Yup.
           </p>
         </div>
         <div className="col">
           <div className="image-perfil">
-            <img src={perfil} className='img-thumbnail' alt="" />
+            <img src={perfil} className="img-thumbnail" alt="" />
           </div>
         </div>
       </div>
       <div className="row">
-        <ul className='list-about'>
+        <ul className="list-about">
           <li>JavaScript (ES6+)</li>
           <li>React</li>
           <li>Node.js</li>
