@@ -20,7 +20,7 @@ const Work = () => {
             Bootcamp Atlântico
           </button>
           <button className="btn-flex" onClick={() => buttonClick('button2')}>
-            Projects
+            Computer tutor
           </button>
         </div>
 
@@ -46,7 +46,7 @@ const Work = () => {
           )}
           {buttonAtive === 'button2' && (
             <div>
-              <h2>Own and academic projects</h2>
+              <h2>Tutor at Leader Vocational Training</h2>
               <p className='p-experience'>
                 Worked with a team of three designers to build a marketing
                 website and e-commerce platform for blistabloc, an ambitious

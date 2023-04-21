@@ -22,6 +22,7 @@
   border-left: 1px solid #ffffff4d;
   transition: .2s;
   margin: 0;
+  padding: 2px;
 }
 
 .btn-flex:hover    {
