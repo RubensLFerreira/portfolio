@@ -10,7 +10,7 @@ const index = () => {
       </Paragrafo>
       <Paragrafo>
         Visite meu GitHub{' '}
-        <Link href="https://github.com/RubensLFerreirLink">
+        <Link href="https://github.com/RubensLFerreira">
           RubensLFerreira
         </Link>
       </Paragrafo>
