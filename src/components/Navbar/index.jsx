@@ -51,7 +51,7 @@ const Navbar = () => {
                   duration={300}
                   className="nav-link"
                 >
-                  <span>01.</span> About
+                  <span>01.</span> Sobre
                 </Link>
               </li>
               <li className="nav-item">
@@ -63,7 +63,7 @@ const Navbar = () => {
                   duration={300}
                   className="nav-link"
                 >
-                  <span>02.</span> Experience
+                  <span>02.</span> Experiências
                 </Link>
               </li>
               <li className="nav-item">
@@ -75,7 +75,7 @@ const Navbar = () => {
                   duration={300}
                   className="nav-link"
                 >
-                  <span>03.</span> Work
+                  <span>03.</span> Trabalhos
                 </Link>
               </li>
               <li className="nav-item">
@@ -87,12 +87,12 @@ const Navbar = () => {
                   duration={300}
                   className="nav-link"
                 >
-                  <span>04.</span> Contact
+                  <span>04.</span> Contatos
                 </Link>
               </li>
               <li className="nav-item">
                 <button onClick={openPDF} type="button" className="btn">
-                  Resumo
+                  Currículo
                 </button>
               </li>
             </ul>

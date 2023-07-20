@@ -6,28 +6,27 @@ const About = () => {
   return (
     <div className="section-about" id="about">
       <h2 className="title-about">
-        <span className="span-about">01. </span>About me
+        <span className="span-about">01. </span>Sobre
       </h2>
       <div className="row">
         <div className="col">
           <p className="p-about">
-            Hello! My name is Rubens Lima and I like to create things for the
-            Web. My interest in the Web arose when I took a technical course in
-            Computing and had my first contact with HTML and CSS through Gustavo
-            Guanabara's courses, where I was able to create my first basic
-            pages.
+            Olá! Meu nome é Rubens Lima e gosto de criar coisas para a WEB. Meu
+            interesse pela Web surgiu quando fiz um curso técnico em Computação
+            e tive meu primeiro contato com HTML e CSS através dos cursos do
+            Gustavo Guanabara, onde pude criar minha primeira páginas web.
           </p>
           <p className="p-about">
-            I do not have professional experience in the area, only in small
-            projects of my own. I am currently in the 6th semester of college in
-            Information Systems. I'm looking for my first opportunity in the
-            area as a junior.
+            Não tenho experiência profissional na área, apenas em pequenos
+            projetos de minha autoria. Atualmente estou no 7º semestre da
+            faculdade em Sistemas de informação. Estou em busca da minha
+            primeira oportunidade no área como júnior.
           </p>
           <p className="p-about">
-            I'm currently studying with a focus on becoming a back-end developer
-            with Nodejs, but I enjoy creating some projects with React. I've
-            already made some REST APIs using TypeScript, Prisma, Sequelize or
-            Knex, PostgreSQL or MySQL, Jest and Yup.
+            Atualmente estou estudando com foco em me tornar um desenvolvedor
+            back-end com Nodejs, mas gosto de criar alguns projetos com React.
+            Eu tenho já fez algumas APIs REST usando TypeScript, Prisma,
+            Sequelize ou Knex, PostgreSQL, MySQL ou MongoDB, Jest e Yup.
           </p>
         </div>
         <div className="col">

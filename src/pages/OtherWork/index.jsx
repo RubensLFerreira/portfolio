@@ -5,7 +5,7 @@ import './OtherWork.css';
 const OtherWork = () => {
   return (
     <div className="container">
-      <h2 className="title-other">Other Noteworthy Projects</h2>
+      <h2 className="title-other">Outros projetos</h2>
       <p className="p-other">view the archive</p>
 
       <div className="section-other">
@@ -106,7 +106,7 @@ const OtherWork = () => {
             </div>
           </div>
 
-          {/* <div class="col">
+          <div class="col">
             <div class="card text-bg-dark">
               <div className="card-header">
                 <div class="d-flex justify-content-between">
@@ -116,18 +116,25 @@ const OtherWork = () => {
                     </h1>
                   </div>
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-github"></i>
+                    <a
+                      href="https://github.com/RubensLFerreira/api_soscidade"
+                      target="_blank"
+                    >
+                      <i class="bi bi-github"></i>
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">api_soscidade</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  (Backend) O SOSCidade surge como uma proposta de sistema que
+                  visa solucionar os problemas de infraestrutura urbana, que se
+                  referem às estruturas e serviços necessários para o
+                  funcionamento de uma cidade, considerando aspectos ambientais,
+                  sociais e econômicos.
                 </p>
-                <p className="p-footer">Footer</p>
+                <p className="p-footer">Nodejs JWT Bcrypt Postgres Sequelize</p>
               </div>
             </div>
           </div>
@@ -142,18 +149,25 @@ const OtherWork = () => {
                     </h1>
                   </div>
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-github"></i>
+                    <a
+                      href="https://github.com/RubensLFerreira/soscidade"
+                      target="_blank"
+                    >
+                      <i class="bi bi-github"></i>
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">soscidade</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  (Frontend) O SOSCidade surge como uma proposta de sistema que
+                  visa solucionar os problemas de infraestrutura urbana, que se
+                  referem às estruturas e serviços necessários para o
+                  funcionamento de uma cidade, considerando aspectos ambientais,
+                  sociais e econômicos.
                 </p>
-                <p className="p-footer">Footer</p>
+                <p className="p-footer">Nodejs JWT Bcrypt Postgres Sequelize</p>
               </div>
             </div>
           </div>
@@ -168,21 +182,26 @@ const OtherWork = () => {
                     </h1>
                   </div>
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-github"></i>
+                    <a
+                      href="https://github.com/RubensLFerreira/adote-petz"
+                      target="_blank"
+                    >
+                      <i class="bi bi-github"></i>
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">adote-petz</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Sistema de adoção de Pets. O sistema possibilita o usuário
+                  adotar pets ou colocar pets p/ adoção. Possibilita marca
+                  visitas e visualizar imagens dos pets disponíveis.
                 </p>
-                <p className="p-footer">Footer</p>
+                <p className="p-footer">Nodejs JWT Mongoose Multer Bcrypt</p>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

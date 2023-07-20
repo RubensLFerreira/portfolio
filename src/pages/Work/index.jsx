@@ -11,7 +11,7 @@ const Work = () => {
     <div class="container container-work" id="work">
       <div className="section-work">
         <h2 className="title-about">
-          <span className="span-about">03. </span>Some Things I've Built
+          <span className="span-about">03. </span>Algumas coisas que construí
         </h2>
 
         <div className="row div-row">
@@ -22,9 +22,9 @@ const Work = () => {
             <p className="title-p">Featured Project</p>
             <h3>Mega Movie</h3>
             <p className="desc-p">
-              Project developed for the evaluation of the PWEB2 discipline. We
-              used the React.js lib, axios, with the The Movie Database (TMDB)
-              API.
+              Projeto desenvolvido para avaliação da disciplina PWEB2. Nós
+              utilizamos a biblioteca React, axios, com o The Movie Database
+              (TMDB) API.
             </p>
             <ul className="list-work">
               <li>React</li>
@@ -58,10 +58,10 @@ const Work = () => {
             <p className="title-p">Featured Project</p>
             <h3>GuiaPress</h3>
             <p className="desc-p">
-              GuiaPress allows the user to read articles or search for articles
-              by categories. The user has the possibility to create an account
-              and log in, this allows creating, editing and deleting articles
-              and categories.
+              GuiaPress permite ao usuário ler artigos ou buscar artigos por
+              categorias. O usuário tem a possibilidade de criar uma conta e
+              faça login, isso permite criar, editar e excluir artigos e
+              categorias.
             </p>
             <ul className="list-work">
               <li>EJS engine</li>
@@ -93,8 +93,8 @@ const Work = () => {
             <p className="title-p">Featured Project</p>
             <h3>Question Guide</h3>
             <p className="desc-p">
-              Simple system where users can ask questions or answer questions
-              asked by other users.
+              Sistema simples onde os usuários podem fazer perguntas ou
+              responder perguntas feitas por outros usuários.
             </p>
             <ul className="list-work">
               <li>Nodejs</li>

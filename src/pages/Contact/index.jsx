@@ -12,13 +12,11 @@ const Contact = () => {
     <div className="container text-center" id="contact">
       <div className="section-contact">
         <p>
-          <span className="span-contact">04. </span>What's Next?
+          <span className="span-contact">04. </span>Qual é o próximo?
         </p>
-        <h2 className="title-contact">Get In Touch</h2>
+        <h2 className="title-contact">Entrar em contato</h2>
         <p className="p-contact">
-          Although I'm not currently looking for any new opportunities, my inbox
-          is always open. Whether you have a question or just want to say hi,
-          I'll try my best to get back to you!
+          Estou em busca da minha primeira oportunidade na área, fique à vontade para entrar em contato ou compartilhar.
         </p>
         <button
           onClick={openPDF}
@@ -26,7 +24,7 @@ const Contact = () => {
           className="btn"
           style={{ marginBottom: '5rem;' }}
         >
-          Resumo
+          Currículo
         </button>
       </div>
     </div>

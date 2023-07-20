@@ -1,4 +1,6 @@
+import React from 'react';
 import ButtonTop from '../../components/ButtonTop';
+import MessageAlert from '../../components/MessageAlert';
 
 import './home.css';
 
@@ -6,15 +8,16 @@ const Home = () => {
   return (
     <div className="container container-home" id="home">
       <div className="info">
-        <p className="hello">Hi, my name is</p>
+        <p className="hello">Olá, meu nome é</p>
         <h1>Rubens Lima.</h1>
-        <h2>I build things for the web.</h2>
+        <h2>Eu construo coisas para a web.</h2>
         <p className="description">
-          Hello! My name is Rubens Lima, I'm an Information System student at
-          IFCE, I'm currently in my 6th semester of college. I have experience
-          in some technologies such as NodeJS, Postgres, Prisma and Express,
-          among others.
+          Olá! Meu nome é Rubens Lima, sou aluno de Sistemas de Informação da
+          IFCE, atualmente estou no 7º semestre da faculdade. Tenho experiencia
+          em algumas tecnologias como NodeJS, Postgres, Prisma, Express, React,
+          entre outros.
         </p>
+        <MessageAlert />
       </div>
       <ButtonTop />
     </div>
